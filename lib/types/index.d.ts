@@ -1,6 +1,6 @@
 import * as React from 'react';
 export declare type Currency = 'NGN' | 'GHS' | 'USD' | 'ZAR';
-export declare type PaymentChannels = 'bank' | 'card' | 'qr' | 'ussd' | 'mobile_money';
+export declare type PaymentChannels = 'bank' | 'card' | 'qr' | 'ussd' | 'mobile_money' | 'bank_transfer';
 interface Response {
     status: string;
 }
